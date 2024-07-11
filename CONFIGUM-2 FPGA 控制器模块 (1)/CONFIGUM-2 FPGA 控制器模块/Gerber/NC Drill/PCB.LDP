@@ -1,0 +1,6 @@
+Layer Pairs Export File for PCB: c:\net\data\arkservice\09a8b10e-c92f-4e02-8682-f6d61d5af1bb\s\e\PCB.CMPcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcb.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,g7,g8,gbl
+LayersSetName=Top_1_Blind_Vias|DrillFile=pcb.tx1|DrillLayers=gtl,g1
+LayersSetName=Top_2_Blind_Vias|DrillFile=pcb.tx2|DrillLayers=gtl,g1,g2
+LayersSetName=7_Bot_Blind_Vias|DrillFile=pcb.tx3|DrillLayers=g7,g8,gbl
+LayersSetName=8_Bot_Blind_Vias|DrillFile=pcb.tx4|DrillLayers=g8,gbl

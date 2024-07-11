@@ -1,0 +1,57 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PCB.CMPcbDoc   10/6/2021  4:22:33 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PCB.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      4mil (0.1mm)                                              Round             373       PTH        0.00inch (0.00mm)
+T2      6mil (0.15mm)                                             Round             4         PTH        0.00inch (0.00mm)
+T3      8mil (0.2mm)                                              Round             15        PTH        0.00inch (0.00mm)
+T4      12mil (0.3mm)                                             Round             30        PTH        0.00inch (0.00mm)
+T5      20mil (0.5mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T6      26mil (0.65mm)                                            Round             84        PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              507
+Layer Pair : Top Layer to Layer 1
+ASCII RoundHoles File : PCB.TX1
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      4mil (0.1mm)                                              Round             67        PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              67
+Layer Pair : Top Layer to Layer 2
+ASCII RoundHoles File : PCB.TX2
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      4mil (0.1mm)                                              Round             75        PTH        0.00inch (0.00mm)
+T3      8mil (0.2mm)                                              Round             1         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              76
+Layer Pair : Layer 7 to Bottom Layer
+ASCII RoundHoles File : PCB.TX3
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      4mil (0.1mm)                                              Round             25        PTH        0.00inch (0.00mm)
+T3      8mil (0.2mm)                                              Round             15        PTH        0.00inch (0.00mm)
+T4      12mil (0.3mm)                                             Round             1         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              41
+Layer Pair : Layer 8 to Bottom Layer
+ASCII RoundHoles File : PCB.TX4
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      4mil (0.1mm)                                              Round             8         PTH        0.00inch (0.00mm)
+T3      8mil (0.2mm)                                              Round             2         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              10
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              701
+
+Total Processing Time (hh:mm:ss) : 00:00:01

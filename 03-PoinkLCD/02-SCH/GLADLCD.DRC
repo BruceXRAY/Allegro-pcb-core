@@ -1,0 +1,111 @@
+Date and Time : 04/08/22 22:10:40
+
+--------------------------------------------------
+Checking Schematic: GLADLCD
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VCC
+    GND
+    B+
+    B-
+    0
+
+Reporting Net Names
+    GATE_C
+    N03069
+    CCL/WLED
+    DMA1
+    DMC
+    N04506
+    LED4/I2C
+    VCC
+    LED5/CSET
+    DPC
+    N02083
+    DPA1
+    VBUS_A2
+    VBUS_A1
+    N04951
+    LED1/SCL
+    CC1
+    N01270
+    B+
+    GATE_A1
+    N01101
+    LED3/IRQ
+    VOUT_A1
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? VOUT_A1 
+                    GLADLCD, POWER BANK  (4.20, 6.50) 
+             Alternate Name:  VOUT_C
+             Alternate Name:  VOUT_A2
+    -------------------------------------------------------------------------------
+
+    LED1/SDA
+    CC2
+    VBUS_C
+    GATE_A2
+    N00222
+    B-
+    0
+    GND
+    N06963
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: GLADLCD
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: GLADLCD 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

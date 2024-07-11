@@ -1,0 +1,103 @@
+Checking For Single Node Nets//检查节点网络
+WARNING(ORCAP-1600): Net has fewer than two connections DPB 
+WARNING(ORCAP-1600): Net has fewer than two connections DAP2 
+WARNING(ORCAP-1600): Net has fewer than two connections DMB 
+WARNING(ORCAP-1600): Net has fewer than two connections GATE_B 
+WARNING(ORCAP-1600): Net has fewer than two connections GATEL 
+WARNING(ORCAP-1600): Net has fewer than two connections VBUS_B 
+WARNING(ORCAP-1600): Net has fewer than two connections N12755 
+WARNING(ORCAP-1600): Net has fewer than two connections N15674 
+WARNING(ORCAP-1600): Net has fewer than two connections DMA2 
+WARNING(ORCAP-1600): Net has fewer than two connections VBUS_L 
+WARNING(ORCAP-1600): Net has fewer than two connections DATA 
+WARNING(ORCAP-1600): Net has fewer than two connections TX1+ 
+WARNING(ORCAP-1600): Net has fewer than two connections RX2- 
+WARNING(ORCAP-1600): Net has fewer than two connections RX1+ 
+WARNING(ORCAP-1600): Net has fewer than two connections TX2+ 
+WARNING(ORCAP-1600): Net has fewer than two connections RX2+ 
+WARNING(ORCAP-1600): Net has fewer than two connections RX1- 
+WARNING(ORCAP-1600): Net has fewer than two connections TX2- 
+WARNING(ORCAP-1600): Net has fewer than two connections TX1- 
+//描述此节点少于两个连接，实际不用连接，可以忽略。
+
+/**网络中名称重复一个或者多个*/
+Net has two or more aliases - possible short? VOUT_A1 
+             Alternate Name:  VOUT_A2
+             Alternate Name:  VOUT_C
+//要么改名，注意检查，如果对设计没有影响，可以忽略。
+
+//在前期进行元器件库设计，所遗留的问题。
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+WARNING(ORCAP-1590): Visible unconnected Power Pins are connected to global nets USB1,TX1+ 
+WARNING(ORCAP-1590): Visible unconnected Power Pins are connected to global nets USB1,TX1- 
+WARNING(ORCAP-1590): Visible unconnected Power Pins are connected to global nets USB1,RX2- 
+WARNING(ORCAP-1590): Visible unconnected Power Pins are connected to global nets USB1,RX2+ 
+WARNING(ORCAP-1590): Visible unconnected Power Pins are connected to global nets USB1,TX2+ 
+WARNING(ORCAP-1590): Visible unconnected Power Pins are connected to global nets USB1,TX2- 
+WARNING(ORCAP-1590): Visible unconnected Power Pins are connected to global nets USB1,RX1- 
+WARNING(ORCAP-1590): Visible unconnected Power Pins are connected to global nets USB1,RX1+ 
+//不是电源PIN尽量不要使用POWER引脚属性，虽然做库的时候可以避免cadence OrCAD检查。最好改成不一样的名字
+//例如：PTX+ PTX-注意检查，如果对设计没有影响，可以忽略。
+
+/**网络中名称重复一个或者多个*/
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VM 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VM 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VM 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VM 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? USB1,GND 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? USB1,GND 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? USB1,GND 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? USB1,GND 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,GND 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,GND 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,GND 
+//要么改名，注意检查，如果对设计没有影响，可以忽略。
+
+//添加PCB封装就好
+Checking Entire Design: GLADLCD 
+--------------------------------------------------
+ERROR(ORCAP-2213): Checking Physical Rules
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C9: GLADLCD, POWER BANK (5.10, 0.70). /C9:  GLADLCD, POWER BANK  (5.10, 0.70) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R4: GLADLCD, POWER BANK (7.20, 6.90). /R4:  GLADLCD, POWER BANK  (7.20, 6.90) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1: GLADLCD, POWER BANK (2.40, 7.00). /U1:  GLADLCD, POWER BANK  (2.40, 7.00) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R3: GLADLCD, POWER BANK (6.80, 6.90). /R3:  GLADLCD, POWER BANK  (6.80, 6.90) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance USB1: GLADLCD, POWER BANK (11.10, 5.30). /USB1:  GLADLCD, POWER BANK  (11.10, 5.30) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R2: GLADLCD, POWER BANK (4.80, 6.60). /R2:  GLADLCD, POWER BANK  (4.80, 6.60) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R1: GLADLCD, POWER BANK (0.90, 7.20). /R1:  GLADLCD, POWER BANK  (0.90, 7.20) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C4: GLADLCD, POWER BANK (5.20, 6.60). /C4:  GLADLCD, POWER BANK  (5.20, 6.60) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C5: GLADLCD, POWER BANK (7.40, 3.20). /C5:  GLADLCD, POWER BANK  (7.40, 3.20) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C6: GLADLCD, POWER BANK (7.80, 3.20). /C6:  GLADLCD, POWER BANK  (7.80, 3.20) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance T1: GLADLCD, POWER BANK (0.60, 0.40). /T1:  GLADLCD, POWER BANK  (0.60, 0.40) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C15: GLADLCD, POWER BANK (9.90, 3.20). /C15:  GLADLCD, POWER BANK  (9.90, 3.20) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C7: GLADLCD, POWER BANK (8.30, 3.20). /C7:  GLADLCD, POWER BANK  (8.30, 3.20) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance P1: GLADLCD, POWER BANK (8.40, 0.60). /P1:  GLADLCD, POWER BANK  (8.40, 0.60) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C14: GLADLCD, POWER BANK (12.10, 2.30). /C14:  GLADLCD, POWER BANK  (12.10, 2.30) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance T3: GLADLCD, POWER BANK (1.80, 0.40). /T3:  GLADLCD, POWER BANK  (1.80, 0.40) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C13: GLADLCD, POWER BANK (12.10, 4.70). /C13:  GLADLCD, POWER BANK  (12.10, 4.70) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: GLADLCD, POWER BANK (7.60, 6.40). /D1:  GLADLCD, POWER BANK  (7.60, 6.40) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C1: GLADLCD, POWER BANK (1.30, 7.50). /C1:  GLADLCD, POWER BANK  (1.30, 7.50) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance T2: GLADLCD, POWER BANK (1.20, 0.40). /T2:  GLADLCD, POWER BANK  (1.20, 0.40) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C12: GLADLCD, POWER BANK (12.10, 3.40). /C12:  GLADLCD, POWER BANK  (12.10, 3.40) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C2: GLADLCD, POWER BANK (1.00, 2.80). /C2:  GLADLCD, POWER BANK  (1.00, 2.80) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C11: GLADLCD, POWER BANK (5.90, 0.70). /C11:  GLADLCD, POWER BANK  (5.90, 0.70) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D3: GLADLCD, POWER BANK (8.70, 5.30). /D3:  GLADLCD, POWER BANK  (8.70, 5.30) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance K1: GLADLCD, POWER BANK (6.00, 6.70). /K1:  GLADLCD, POWER BANK  (6.00, 6.70) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C3: GLADLCD, POWER BANK (2.10, 2.80). /C3:  GLADLCD, POWER BANK  (2.10, 2.80) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L1: GLADLCD, POWER BANK (1.50, 2.40). /L1:  GLADLCD, POWER BANK  (1.50, 2.40) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance T4: GLADLCD, POWER BANK (2.40, 0.40). /T4:  GLADLCD, POWER BANK  (2.40, 0.40) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U4: GLADLCD, POWER BANK (11.20, 2.70). /U4:  GLADLCD, POWER BANK  (11.20, 2.70) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C10: GLADLCD, POWER BANK (5.50, 0.70). /C10:  GLADLCD, POWER BANK  (5.50, 0.70) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D2: GLADLCD, POWER BANK (8.70, 5.90). /D2:  GLADLCD, POWER BANK  (8.70, 5.90) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5: GLADLCD, POWER BANK (11.20, 4.00). /U5:  GLADLCD, POWER BANK  (11.20, 4.00) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D5: GLADLCD, POWER BANK (8.70, 4.50). /D5:  GLADLCD, POWER BANK  (8.70, 4.50) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R7: GLADLCD, POWER BANK (9.20, 2.90). /R7:  GLADLCD, POWER BANK  (9.20, 2.90) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D4: GLADLCD, POWER BANK (8.80, 5.10). /D4:  GLADLCD, POWER BANK  (8.80, 5.10) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U2: GLADLCD, POWER BANK (3.40, 2.30). /U2:  GLADLCD, POWER BANK  (3.40, 2.30) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3: GLADLCD, POWER BANK (11.20, 1.60). /U3:  GLADLCD, POWER BANK  (11.20, 1.60) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R6: GLADLCD, POWER BANK (8.00, 7.00). /R6:  GLADLCD, POWER BANK  (8.00, 7.00) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C8: GLADLCD, POWER BANK (9.30, 2.60). /C8:  GLADLCD, POWER BANK  (9.30, 2.60) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D6: GLADLCD, POWER BANK (8.70, 4.80). /D6:  GLADLCD, POWER BANK  (8.70, 4.80) 
+ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R5: GLADLCD, POWER BANK (7.60, 6.90). /R5:  GLADLCD, POWER BANK  (7.60, 6.90) 
+
+

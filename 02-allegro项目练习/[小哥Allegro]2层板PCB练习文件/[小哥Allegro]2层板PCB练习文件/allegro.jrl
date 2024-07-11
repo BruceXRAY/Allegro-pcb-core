@@ -1,0 +1,58 @@
+\t (00:00:03) allegro 17.2 S079 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Sun Aug 07 11:29:46 2022
+\t (00:00:03)         Host=LAPTOP-G64GFKCU User=Bruce Ray Pid=13144 CPUs=8
+\t (00:00:03) CmdLine= d:\cadence\cadence\spb_17.2\tools\bin\allegro.exe E:\02-项目资料\项目资料\01-硬件项目资料\2021年项目资料\02-allegro项目练习\[小哥Allegro]2层板PCB练习文件\[小哥Allegro]2层板PCB练习文件\2-lianxi_finsh.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged 2-lianxi_finsh
+\w (00:00:06) WARNING(SPMHDB-212): Design feature(s) are disabled because selected product and option(s) do not
+match design capability required: Maximum Crosstalk, Maximum Peak Crosstalk. . Either select required product and
+option(s) in Product Choices or click Update to Tier in File Properties to
+suppress the message. See Allegro PCB Design Solutions datasheet on
+www.cadence.com for mapping of products and options to design features.
+\i (00:00:15) fillin confirm
+\d (00:00:15) Design opened: E:/02-项目资料/项目资料/01-硬件项目资料/2021年项目资料/02-allegro项目练习/[小哥Allegro]2层板PCB练习文件/[小哥Allegro]2层板PCB练习文件/2-lianxi_finsh.brd
+\i (00:00:15) trapsize 9913
+\i (00:00:16) trapsize 10218
+\i (00:00:16) trapsize 9913
+\i (00:00:16) trapsize 9913
+\i (00:00:17) generaledit 
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 879.579 755.827
+\i (00:00:18) trapsize 19825
+\i (00:00:18) zoom in 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 479.106 720.141
+\i (00:00:18) trapsize 9913
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 479.106 720.141
+\i (00:00:19) trapsize 19825
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 939.055 640.840
+\i (00:00:20) trapsize 9913
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 1065.937 781.601
+\i (00:00:23) trapsize 19825
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 1073.867 785.566
+\i (00:00:24) trapsize 9913
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 1073.867 787.549
+\i (00:00:24) trapsize 19825
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 1034.216 843.060
+\i (00:00:26) trapsize 9913
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 1343.492 902.537
+\i (00:00:26) trapsize 19825
+\i (00:00:30) exit 
+\t (00:00:30)     Journal end - Sun Aug 07 11:30:13 2022

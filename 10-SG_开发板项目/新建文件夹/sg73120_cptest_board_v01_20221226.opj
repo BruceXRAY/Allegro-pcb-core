@@ -1,0 +1,40 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\sg73120_cptest_board_v01_20221226.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\sg73120_cptest_board_v01_20221226.dsn")
+      (Path "Design Resources" ".\sg73120_cptest_board_v01_20221226.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" ".\sg73120_cptest_board_v01_20221226.dsn"
+         "Design Cache")
+      (Select "Design Resources" ".\sg73120_cptest_board_v01_20221226.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 274"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1403 104 417")
+        (Scroll "-306 0")
+        (Zoom "42")
+        (Occurrence "/"))
+      (Path
+         "E:\02-项目资料\03-项目资料\01-硬件项目资料\2022年项目资料\10-SG_开发板项目\新建文件夹\SG73120_CPTEST_BOARD_V01_20221226.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2_SG73120_SET1")))
+  (MPSSessionName "Bruce Ray"))

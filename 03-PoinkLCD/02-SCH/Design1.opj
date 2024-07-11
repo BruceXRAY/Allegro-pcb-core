@@ -1,0 +1,53 @@
+(ExpressProject "Design1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\design1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\03-项目资料\项目资料\01-硬件项目资料\2022年项目资料\03-PoinkLCD\02-SCH\design1.dsn")
+      (Path "Design Resources"
+         "E:\03-项目资料\项目资料\01-硬件项目资料\2022年项目资料\03-PoinkLCD\02-SCH\design1.dsn"
+         "10gigabit_nic")
+      (Path "Design Resources"
+         "E:\03-项目资料\项目资料\01-硬件项目资料\2022年项目资料\03-PoinkLCD\02-SCH\design1.dsn"
+         "Design Cache"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 332"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1260 52 423")
+        (Scroll "0 97")
+        (Zoom "126")
+        (Occurrence "/"))
+      (Path
+         "E:\03-项目资料\项目资料\01-硬件项目资料\2022年项目资料\03-POINKLCD\02-SCH\DESIGN1.DSN")
+      (Schematic "10gigabit_nic")
+      (Page "PAGA01 SYS_BLOCK"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1434 130 465")
+        (Scroll "-17 34")
+        (Zoom "126")
+        (Occurrence "/"))
+      (Path
+         "E:\03-项目资料\项目资料\01-硬件项目资料\2022年项目资料\03-POINKLCD\02-SCH\DESIGN1.DSN")
+      (Schematic "10gigabit_nic")
+      (Page "PAGE02 FPGA_CONFIG")))
+  (MPSSessionName "Bruce Ray"))
